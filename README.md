@@ -19,22 +19,30 @@
 
 ## Rules of the Game
 1. 4 x 3 game
- -       | G | L | E | <-- Base
- -       |   | C |   |
- -       |   | C |   |
- -       | E | L | G | <-- Base
+
+|  G  |  L  |  E  |
+| ----- | ----- | ----- |
+|   |  C  |   |
+|   |  C  |   |
+|   E  |  L  |  G  |
+
 2. Checkmate the lion or eat the lion
 3. A chick can become a hen once it reacher the opponent's base
-4. Any of the opponents pieces that you have eaten can be resurrected to become your own. 
-   You can place the piece wherever you wnt on the board as long as there is no other piece there. 
+4. Any of the opponents pieces that you have eaten can be resurrected to become your own.
+   You can place the piece wherever you wnt on the board as long as there is no other piece there.
    This is considered one move.
- 
-## Steps 
+
+## Steps
 - [ ] Develop a strategy-static evaluation function
 - [ ] Create a minimax algorithm
 - [ ] Should run in Man-Machine mode
- 
- ## License
+
+
+## Requirements
+  - Install pygame
+    - For linux run: sudo apt-get install python-pygame
+
+## License
 
   Copyright [2018] [Kelly Lu]
 
@@ -49,4 +57,3 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-
